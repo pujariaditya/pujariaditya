@@ -1,52 +1,55 @@
-![banner](banner.png)
+![whiteboard banner](excalidraw-banner.png)
 
+<div align="center">
 
-<h1 align="center">Aditya Pujari</h1>
+[![typing](https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=44&duration=2800&pause=900&color=1e1e1e&center=true&vCenter=true&width=700&height=80&lines=i+sketch+audio+ML+that+earns+trust;watermarking+%C2%B7+provenance+%C2%B7+forensics;generative+audio+%C2%B7+TTS+internals)](https://git.io/typing-svg)
 
+![badges](excalidraw-badges.png)
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=620&lines=Audio+ML+researcher;Voice+provenance+%26+watermarking;Deepfake+forensics;Generative+audio" alt="typing animation" />
-</p>
+</div>
 
+![about me](h-about.png)
 
-<p align="center">
-  PhD student, University of North Texas · advisor: Ajita Rattani<br/>
-  I work on <b>trust and safety for speech and audio</b> — watermarking, deepfake forensics, and voice provenance.
-</p>
+i work on **trustworthy audio** — watermarking voices, tracing synthetic speech, and taking models apart from the inside (TTS internals, neural codecs). if an audio metric can be broken, i want to be the one who breaks it... then fixes it.
 
+![divider](excalidraw-divider.png)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/IEEE_TBIOM-2026-00629B?style=flat-square" alt="TBIOM 2026" />
-  <img src="https://img.shields.io/badge/IJCB-2025-8A2BE2?style=flat-square" alt="IJCB 2025" />
-  <img src="https://img.shields.io/badge/Open_to-internships_%26_full--time-22D3EE?style=flat-square" alt="Open to roles" />
-</p>
+![research threads](h-research.png)
 
+<img src="arrow.png" width="20" /> **AudioAuth** — dual-watermarking framework: frequency-partitioned model + data watermarks for audio integrity and source attribution (IEEE TBIOM 2026)
 
-## What I build
+<img src="arrow.png" width="20" /> **WaveVerify** — FiLM-generator + MoE-detector watermarking; zero BER under common distortions; beats AudioSeal and WavMark (IJCB 2025)
 
+<img src="arrow.png" width="20" /> **sourcetrace** — codec-residual open-set source tracing of audio deepfakes (EnCodec residual + frozen WavLM-Large; FPR95 1.14% vs published 3.36%)
 
-- **AudioAuth** — dual-watermarking framework: frequency-partitioned model + data watermarks for audio integrity and source attribution (IEEE TBIOM 2026)
-- **WaveVerify** — FiLM-generator + MoE-detector watermarking; zero BER under common distortions; beats AudioSeal and WavMark (IJCB 2025)
-- **sourcetrace** — codec-residual open-set source tracing of audio deepfakes (EnCodec residual + frozen WavLM-Large; FPR95 1.14% vs published 3.36%)
-- **spanmark** — two-route segment localization of partially spoofed speech; cross-corpus SOTA on LlamaPartialSpoof (29.0 EER vs 35.5 baseline)
-- **wavepainter** — multimodal LLM-guided diffusion for text-based speech editing; substitution WER 3.48 vs prior best 4.41
-- **cond-ID** — speaker unlearning in zero-shot TTS via conditioning-space identity redirection (XTTS-v2, Tortoise-TTS, IndexTTS-1.5)
-- **HiggsAudiov2TokenizerUnofficial** — full PyTorch training pipeline for the Higgs Audio V2 tokenizer (HuBERT semantics + DAC + 8-layer RVQ, 960x downsampling)
+<img src="arrow.png" width="20" /> **spanmark** — two-route segment localization of partially spoofed speech; cross-corpus SOTA on LlamaPartialSpoof (29.0 EER vs 35.5 baseline)
 
+<img src="arrow.png" width="20" /> **wavepainter** — multimodal LLM-guided diffusion for text-based speech editing; substitution WER 3.48 vs prior best 4.41
 
-## Stack
+<img src="arrow.png" width="20" /> **cond-ID** — speaker unlearning in zero-shot TTS via conditioning-space identity redirection (XTTS-v2, Tortoise-TTS, IndexTTS-1.5)
 
+<img src="arrow.png" width="20" /> **HiggsAudiov2TokenizerUnofficial** — full PyTorch training pipeline for the Higgs Audio V2 tokenizer (HuBERT semantics + DAC + 8-layer RVQ, 960x downsampling)
 
-<p>
-  <img src="https://skillicons.dev/icons?i=py,pytorch,git,docker,vscode&theme=dark" alt="stack icons" />
-</p>
+![divider](excalidraw-divider.png)
 
+![the toolbox](h-stack.png)
 
-WavLM · XLS-R · ECAPA-TDNN · Wav2Vec2 · EnCodec · DAC · RVQ · torchaudio · Hugging Face · GAN training · reproducible evals
+![toolbox sticky notes](excalidraw-stack.png)
 
+![divider](excalidraw-divider.png)
 
-## Stats
+![by the numbers](h-stats.png)
+
+<div align="center">
 
 <p align="center">
   <a href="https://github.com/pujariaditya"><img src="https://streak-stats.demolab.com/?user=pujariaditya&theme=tokyonight&hide_border=true" alt="GitHub streak stats" /></a>
 </p>
+
+*pinned to the board — updates live*
+
+</div>
+
+![divider](excalidraw-divider.png)
+
+![footer](excalidraw-footer.png)
