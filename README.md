@@ -42,7 +42,7 @@
 </p>
 
 
-WavLM · XLS-R · ECAPA-TDNN · Wav2Vec2 · EnCodec · DAC · RVQ · torchaudio · Hugging Face · GAN training · sha256-pinned reproducible evals
+WavLM · XLS-R · ECAPA-TDNN · Wav2Vec2 · EnCodec · DAC · RVQ · torchaudio · Hugging Face · GAN training · reproducible evals
 
 
 ## Stats
