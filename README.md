@@ -17,4 +17,5 @@ Python · PyTorch · torchaudio · Hugging Face · speech encoders · neural aud
 
 ## Contact
 
+Email: adityapujari@my.unt.edu
 GitHub: [@pujariaditya](https://github.com/pujariaditya)
